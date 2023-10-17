@@ -1,0 +1,158 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    animation: FA 5s linear infinite normal;
+
+}
+@keyframes FA{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+.parent > div{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.cmn{
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    transform-origin: right bottom;
+    opacity: 0.5;
+}
+.leaf1{
+    background-color: blue;
+    transform: rotateZ(360deg);
+}
+.leaf2{
+    background-color: red;
+    transform: rotateZ(11.25deg);
+}
+.leaf3{
+    background-color: green;
+    transform: rotateZ(22.50deg);
+}
+.leaf4{
+    background-color: blue;
+    transform: rotateZ(33.75deg);
+}
+.leaf5{
+    background-color: red;
+    transform: rotateZ(45deg);
+}
+.leaf6{
+    background-color: green;
+    transform: rotateZ(56.25deg);
+}
+.leaf7{
+    background-color: blue;
+    transform: rotateZ(67.50deg);
+}
+.leaf8{
+    background-color: red;
+    transform: rotateZ(78.75deg);
+}
+.leaf9{
+    background-color: green;
+    transform: rotateZ(90deg);
+}
+.leaf10{
+    background-color: blue;
+    transform: rotateZ(101.25deg);
+}
+.leaf11{
+    background-color: red;
+    transform: rotateZ(112.50deg);
+}
+.leaf12{
+    background-color: green;
+    transform: rotateZ(123.75deg);
+}
+.leaf13{
+    background-color: blue;
+    transform: rotateZ(135deg);
+}
+.leaf14{
+    background-color: red;
+    transform: rotateZ(146.25deg);
+}
+.leaf15{
+    background-color: green;
+    transform: rotateZ(157.5deg);
+}
+.leaf16{
+    background-color: blue;
+    transform: rotateZ(168.75deg);
+}
+.leaf17{
+    background-color: red;
+    transform: rotateZ(180deg);
+}
+.leaf18{
+    background-color: green;
+    transform: rotateZ(191.25deg);
+}
+.leaf19{
+    background-color: blue;
+    transform: rotateZ(202.5deg);
+}
+.leaf20{
+    background-color: red;
+    transform: rotateZ(213.75deg);
+}
+.leaf21{
+    background-color: green;
+    transform: rotateZ(225deg);
+}
+.leaf22{
+    background-color: blue;
+    transform: rotateZ(236.25deg);
+}
+.leaf23{
+    background-color: red;
+    transform: rotateZ(247.5deg);
+}
+.leaf24{
+    background-color: green;
+    transform: rotateZ(258.75deg);
+}
+.leaf25{
+    background-color: blue;
+    transform: rotateZ(270deg);
+}
+.leaf26{
+    background-color: red;
+    transform: rotateZ(281.25deg);
+}
+.leaf27{
+    background-color: green;
+    transform: rotateZ(292.5deg);
+}
+.leaf28{
+    background-color: blue;
+    transform: rotateZ(303.75deg);
+}
+.leaf29{
+    background-color: red;
+    transform: rotateZ(315deg);
+}
+.leaf30{
+    background-color: green;
+    transform: rotateZ(326.25deg);
+}
+.leaf31{
+    background-color: blue;
+    transform: rotateZ(337.5deg);
+}
+.leaf32{
+    background-color: red;
+    transform: rotateZ(348.75deg);
+    opacity: 0.1 !important;
+}
